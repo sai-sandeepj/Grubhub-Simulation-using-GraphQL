@@ -120,7 +120,7 @@ const RootQuery = new GraphQLObjectType({
                             reject("error")
                         }
                         else {
-                            if (!bcrypt.compareSync(args.Password, user.userPassword)) {
+                            if (bcrypt.compareSync(args.Password, user.userPassword)) {
                                 console.log('result', user);
                                 resolve(user)
                             }
