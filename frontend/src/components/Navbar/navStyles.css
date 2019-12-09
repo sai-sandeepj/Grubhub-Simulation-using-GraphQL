@@ -1,0 +1,18 @@
+.nav-login-logout {
+  position: absolute;
+  /* position: fixed; */
+  right: 100px;
+  color: white;
+} 
+
+.navbar-inverse{
+    position: absolute;
+  /* position: fixed; */
+  right: 160px;
+}
+.logo-main{
+    color: white;
+}
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
