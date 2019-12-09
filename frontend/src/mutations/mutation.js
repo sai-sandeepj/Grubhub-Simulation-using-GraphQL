@@ -30,12 +30,7 @@ const OWNER_UPDATE_PROFILE_QUERY = gql`
         }
     }`
 
-const ADD_ITEM = gql`
-    mutation($userEmail: String, $itemName: String,$itemType: String, $itemPrice: Int, $itemDesc: String, $cuisineName: String){
-        additem(userEmail:$userEmail, itemName: $itemName, itemType: $itemType, itemPrice: $itemPrice, itemDesc: $itemDesc, cuisineName: $cuisineName){
-          success
-        }
-      }`
+
 
 
 export { SIGNUP_QUERY, OWNER_SIGNUP_QUERY, UPDATE_PROFILE_QUERY, OWNER_UPDATE_PROFILE_QUERY, ADD_ITEM }
