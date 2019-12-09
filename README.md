@@ -1,5 +1,6 @@
-## Lab3-Grubhub SJSU ID - 013821418
+## Lab3-Grubhub 
 ### Simulation of Grubhub
+## SJSU ID - 013821418
 ### Technologies used
 #### 1. React-Apollo
 #### 2. GraphQL
