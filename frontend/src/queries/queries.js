@@ -1,6 +1,14 @@
 import gql from 'graphql-tag';
 
-
+const LOGIN_QUERY = gql`
+query LoginQuery($userEmail: String, $userPassword: String){
+        login(userEmail: $userEmail, userPassword: $userPassword){
+        accountType
+        firstName
+        lastName
+        userEmail
+    }
+}`
 
 
 const PROFILE_QUERY = gql`
