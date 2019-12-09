@@ -335,34 +335,7 @@ const RootQuery = new GraphQLObjectType({
                 })
             }
         },
-        restaurantitems: {
-            type: ProfileType,
-            args: {
-                restName: {
-                    type: GraphQLString
-                }
-            },
-            resolve(parent, args) {
-                console.log("In itemsByRestaurant", args.restName);
-                return new Promise(function (resolve, reject) {
-                    console.log("In itemsByRestaurant");
 
-                    return Users
-                        .find({
-                            'restaurant.items': { $elemMatch: { restName: args.restName } }
-                        })
-                        .select(['restaurant', '-_id'])
-                        .then((result) => {
-                            console.log("result", result[0].restaurant);
-                            resolve(result[0])
-                        })
-                        .catch((err) => {
-                            console.log("error in getting restaurants");
-                            reject("error in getting restaurants");
-                        });
-                })
-            }
-        },
         restaurantbyitemcuisine: {
             type: new GraphQLList(ProfileType),
             args: {
