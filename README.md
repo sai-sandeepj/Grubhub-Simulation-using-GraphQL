@@ -1,19 +1,42 @@
-## Lab3-Grubhub 
-### Simulation of Grubhub
-## SJSU ID - 013821418
-### Technologies used
-#### 1. React-Apollo
-#### 2. GraphQL
-#### 3. MongoDB
+# Grubhub WebApp Prototype using GraphQL
+
+[Repo Link to other version of the prototype using MERN stack](https://github.com/sai-sandeepj/Grubhub-WebApp-Prototype)
+
+### Technology Stack
+MongoDB |
+ExpressJS |
+React-Native|
+Node.js |
+GraphQL |
 
 ### Steps to run the application
 #### Frontend
-1. Install node modules using the command "npm install"
-2. To start the client use the command "npm start"
-3. Client is running on port: 3000
-
+```sh
+$ cd frontend
+$ npm install
+$ npm start
+```
 #### Backend
-1. Install node modules using the command "npm install"
-2. To start the server use the command "node server.js"
-3. Server is running on port: 3001
+```sh
+$ cd backend
+$ npm install
+$ node server.js
+```
 
+### Application Screenshots
+#### 1. Login Page
+![](images/login.png)
+
+#### 2. Signup Page
+![](images/signup.png)
+
+#### 2. Profile Page
+![](images/owner_profile.png)
+
+#### 3. Customer Home pages
+![](images/home.png)
+![](images/customer_home.png)
+
+#### 4. Owner Home pages
+![](images/owner_home.png)
+![](images/owner_orders.png)
