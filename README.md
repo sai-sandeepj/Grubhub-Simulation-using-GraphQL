@@ -5,7 +5,7 @@
 ### Technology Stack
 MongoDB |
 ExpressJS |
-React-Native|
+React-Apollo|
 Node.js |
 GraphQL |
 
