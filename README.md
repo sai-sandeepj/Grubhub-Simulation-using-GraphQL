@@ -1,6 +1,6 @@
 # Grubhub WebApp Prototype using GraphQL
 
-[Repo Link to other version of the prototype using MERN stack](https://github.com/sai-sandeepj/Grubhub-WebApp-Prototype)
+[Repo Link to MERN stack version of the prototype](https://github.com/sai-sandeepj/Grubhub-WebApp-Prototype)
 
 ### Technology Stack
 MongoDB |
