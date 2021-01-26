@@ -1,4 +1,4 @@
-# Grubhub WebApp Prototype using GraphQL
+# Grubhub Simulaiton using GraphQL
 
 [Repo Link to MERN stack version of the prototype](https://github.com/sai-sandeepj/Grubhub-WebApp-Prototype)
 
